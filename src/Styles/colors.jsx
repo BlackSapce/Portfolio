@@ -4,7 +4,7 @@ const colors = {
     darkPink: '#FF647F',
     deepPink: '#b32b42',
     grey: "#3f4652",
-    dark: "#272c33",
+    dark: "#201d22",
     light: "#eee1ea",
     text: "#beb4bb",
 }

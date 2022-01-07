@@ -15,9 +15,7 @@ const Nav = styled.nav`
         fill: ${colors.darkPink};
     }
 `
-const Pink = styled.span`
-    color: ${colors.darkPink};
-`
+
 const Ul = styled.ul`
     display: flex;
     
@@ -33,4 +31,4 @@ const Ul = styled.ul`
     }
 `
 
-export { Nav, Pink, Ul }
+export { Nav, Ul }

@@ -1,7 +1,14 @@
 import i18next from 'i18next'
-import navbar_en from './En/navbar.json'
 import navbar_es from './Es/navbar.json'
+import navbar_en from './En/navbar.json'
 import presentation_es from './Es/presentation.json'
+import presentation_en from './En/presentation.json'
+import aboutme_es from './Es/aboutme.json'
+import aboutme_en from './En/aboutme.json'
+import contactme_es from './Es/contactme.json'
+import contactme_en from './En/contactme.json'
+import projects_es from './Es/projects.json'
+import projects_en from './En/projects.json'
 
 const languages = ['en', 'es']
 
@@ -34,10 +41,17 @@ i18next.init({
     resources: {
         es: {
             navbar: navbar_es,
-            presentation: presentation_es
+            presentation: presentation_es,
+            aboutme: aboutme_es,
+            projects: projects_es,
+            contactme: contactme_es,
         },
         en: {
-            navbar: navbar_en
+            navbar: navbar_en,
+            presentation: presentation_en,
+            aboutme: aboutme_en,
+            projects: projects_en,
+            contactme: contactme_en,
         },
     },
 })

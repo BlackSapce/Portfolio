@@ -1,11 +1,10 @@
 import React from 'react'
-import { Nav, Pink, Ul } from '../Styles/NavbarStyles'
+import { Nav, Ul } from '../Styles/NavbarStyles'
 import { useTranslation } from 'react-i18next'
+import PinkUpper from './PinkUpper'
 
 const Navbar = () => {
     const [t, i18n] = useTranslation('navbar')
-
-    console.log(t('navbar', { returnObjects: true }))
 
     const Translate = lang => {
         i18n.changeLanguage(lang)
@@ -21,8 +20,9 @@ const Navbar = () => {
                 {Object.keys(t('navbar', { returnObjects: true })).map(e =>
                     <li key={`navbar-${e}`}>
                         <a href="">
-                            <Pink>{t(`navbar.${e}`).charAt(0)}</Pink>
-                            <span>{t(`navbar.${e}`).slice(1)}</span>
+                            <PinkUpper>
+                                {t(`navbar.${e}`)}
+                            </PinkUpper>
                         </a>
                     </li>
                 )}

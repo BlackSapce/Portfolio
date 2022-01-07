@@ -1,0 +1,15 @@
+{
+    "title": "Sobre mí",
+    "desc": {
+        "1": "Alguna descripción",
+        "2": "Parte 2"
+    },
+    "techs": {
+        "title": "Technologies I've used the most recently:",
+        "recent": {
+            "1": "React",
+            "2": "Javascript (ES6)",
+            "3": "Styled Components"
+        }
+    }
+}
